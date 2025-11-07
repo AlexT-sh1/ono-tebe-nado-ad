@@ -16,7 +16,7 @@ main {
 
 .header {
   display: flex;
-  margin: 92px 50px 96px;
+  margin: 92px 50px 96px; 
   align-items: center;
 }
 
@@ -86,18 +86,16 @@ main {
   top: 165px;
   left: 50px;
   right: 50px;
-  line-height: 20px;
+  line-height: 115px; 
 }
 
 .aligned-text {
   display: block;
-  width: 1340px;
   line-height: 115px;
 }
 
 .aligned-text_center {
   display: block;
-  width: 1280px;
   text-align: center;
   line-height: 100px;
 }
@@ -139,15 +137,16 @@ main {
   background-color: transparent;
   padding: 12px 32px;
   color: #FFF;
-  border-color: #FFF;
+  border: 1px solid #FFF; 
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer; /* Добавлено */
 }
 
 .lots {
-  margin: 180px 50px 181px;
+  margin: 180px 50px;
 }
 
 .lots_heading {
@@ -169,7 +168,7 @@ main {
   background-image: url(../images/card-lot-01.jpg);
   height: 450px;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -178,7 +177,7 @@ main {
   background-image: url(../images/card-lot-02.jpg);
   height: 450px;
   background-position: center;
-  background-size: 100%;
+  background-size: cover; 
   background-repeat: no-repeat;
 }
 
@@ -187,7 +186,7 @@ main {
   background-image: url(../images/card-lot-03.jpg);
   height: 450px;
   background-position: center;
-  background-size: 100%;
+  background-size: cover; 
   background-repeat: no-repeat;
 }
 
@@ -225,9 +224,9 @@ main {
 
 .about {
   display: grid;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 50px;
   grid-template-columns: 1fr 2fr;
+  gap: 25px;
 }
 
 .about_logo {
@@ -235,6 +234,8 @@ main {
   justify-self: center;
   background-color: black;
   border-radius: 50%;
+  width: 240px;
+  height: 240px;
 }
 
 .about_logo-image {
@@ -258,6 +259,7 @@ main {
   display: grid;
   font-size: 20px;
   grid-template-rows: 1fr 1fr;
+  gap: 25px;
 }
 
 .footer {
@@ -271,6 +273,7 @@ main {
   list-style-type: none;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 .footer__menu-list-item {
@@ -287,8 +290,10 @@ main {
   list-style-type: none;
   width: 240px;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .footer__social_icon {
   height: 48px;
+  width: 48px;
 }
