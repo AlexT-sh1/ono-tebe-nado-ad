@@ -11,7 +11,6 @@
 .header_menu {
   display: flex;
   justify-self: center;
-
 }
 
 .menu_links {
@@ -23,16 +22,16 @@
   right: 4px;
   bottom: 3px;
 }
-  
+
 .link_list {
   font-size: 18px;
   font-weight: 400;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
   text-decoration: underline;
 }
 
 .main_link_marker {
-  list-style-type: none; 
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -52,9 +51,8 @@
   letter-spacing: 0px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
-  font-style: normal;  
+  font-style: normal;
 }
-
 
 .cover {
   position: relative;
@@ -64,7 +62,7 @@
   text-transform: uppercase;
   z-index: 0;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
 .overlay {
@@ -79,18 +77,18 @@
   z-index: -1;
 }
 
-.cover_title { 
+.cover_title {
   position: relative;
   display: flex;
   flex-direction: column;
   padding: 175px 50px 90px;
-  gap: 20px;   
-} 
- 
-.cover_title span { 
-  font-size: 100px; 
-  font-weight: 700;  
-  line-height: 100%;  
+  gap: 20px;
+}
+
+.cover_title span {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 .cover_title .text_cover {
@@ -103,14 +101,14 @@
   text-align: center;
   line-height: 125px;
   position: relative;
-  left: 15px; /* сдвиг "ТЕБЕ" вправо */
+  left: 15px;
 }
 
 .cover_title .text_right {
   text-align: right;
-  line-height: 125px;  
+  line-height: 125px;
   position: relative;
-  bottom: 10px; /* сдвиг "НАДО" влево */
+  bottom: 10px;
 }
 
 .cover_title .text_cover .no_letter_spacing {
@@ -155,7 +153,7 @@
 .title_lots {
   padding-top: 178px;
   padding-bottom: 20px;
-  padding-left: 65px; /* Измените с 64px на 24px */
+  padding-left: 65px;
   color: #000;
   font-size: 40px;
   font-weight: 700;
@@ -164,20 +162,19 @@
 
 .container_lots {
   display: grid;
-  grid-template-columns: repeat(3, 335px); /* Фиксированная ширина колонок */
+  grid-template-columns: repeat(3, 335px);
   gap: 24px;
-  justify-content: center; /* Центрирует сетку */
-  padding: 7px 50px; /* Боковые отступы */
+  justify-content: center;
+  padding: 7px 50px;
   margin: 0 auto;
 }
 
-.card_lots a { 
-  text-decoration: none; /* дефолтное подчеркивание текста убрано */ 
+.card_lots a {
+  text-decoration: none;
 }
 
 .card_lots {
   min-height: 597px;
-  /* Уберите max-width и flex-grow */
 }
 
 .card {
@@ -214,15 +211,16 @@
   text-transform: uppercase;
 }
 
-.link_lots { 
+.link_lots {
   text-decoration: none;
 }
+
 .text_on_card {
   color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 
 .view_more {
@@ -305,7 +303,7 @@
 
 .footer_address {
   font-style: normal;
-  padding-left: 0px; 
+  padding-left: 0px;
   padding-bottom: 4px;
 }
 
